@@ -1,0 +1,17 @@
+GOWSHIKA M
+Software Engineer · Full-stack · Applied ML
+
+Final-year B.Tech CSE student at VIT Chennai, graduating June 2027.
+Based in Chennai. Campus placement focus: Bangalore / Hyderabad.
+
+PROJECT SIGNALS
+- LegacyLens AI: Full-stack code-risk intelligence platform; 14 REST endpoints; 3 PostgreSQL tables; co-built with teammate Barani.
+- DevConnect AI: Next.js, Prisma, Judge0, OpenAI API, role-based auth, recruiter/developer dashboards, plagiarism detection, AI-generated interview kits; migrated to Supabase/PostgreSQL; deployed on Vercel/Render.
+- HoneyShield AI: Explainable behavioral anomaly detection; AUPRC 0.8066; attack classification accuracy 91.53%; Honeywell Campus Connect hackathon finalist; solo submission.
+- Mask-Vault: Privacy-first purpose-aware document redaction and secure sharing system; local open-weight components with no external APIs for the privacy-critical AI pipeline.
+- Cricket Player Performance Predictor: React, Flask, Scikit-learn, Random Forest; self-built IPL dataset.
+
+BACKGROUND
+Android App Developer Intern, Imarticus Learning — May to Aug 2025.
+
+Note: Replace this summary with Gowshika's final verified resume PDF before deployment.
