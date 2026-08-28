@@ -37,7 +37,8 @@ export function Terminal() {
 
   function output(command: string) {
     const cmd = command.trim().toLowerCase();
-    if (cmd === "help") return "whoami\nprojects --list\nskills\nresume --download\ncontact\nsudo hire gowshika\nclear";
+    if (cmd === "help")
+  return "whoami\nprojects --list\nskills\ncontact\nsudo hire gowshika\nclear";
     if (cmd === "whoami") return "Gowshika M\nSoftware Engineer · Full-stack · Applied ML\nFinal-year B.Tech CSE · VIT Chennai · graduating June 2027";
     if (cmd === "projects --list") return projects.map((p) => `${p.index}  ${p.name}  [${p.focus.join(" / ")}]`).join("\n");
     if (cmd === "skills") return "SOFTWARE  TypeScript · Python · React · Next.js · Node.js · FastAPI · Flask\nDATA      SQL · PostgreSQL · Prisma · Supabase\nAI / ML   Scikit-learn · XGBoost · Isolation Forest · SHAP · OpenAI API";
@@ -52,13 +53,7 @@ export function Terminal() {
         : "Campus placement season · targeting Bangalore / Hyderabad.\nVerified contact links are not configured yet.";
     }
     if (cmd === "sudo hire gowshika") return "permission granted ✓\nOpening recruiter mode...\nSignal: software engineering + full-stack + applied ML";
-    if (cmd === "resume --download") {
-      const link = document.createElement("a");
-      link.href = "/gowshika-resume.txt";
-      link.download = "Gowshika-M-Resume.txt";
-      link.click();
-      return "Downloading resume summary...";
-    }
+    
     if (!cmd) return "";
     return `command not found: ${command}`;
   }

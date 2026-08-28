@@ -42,7 +42,7 @@ export default function Home() {
             </p>
             <div className="mt-8 flex flex-wrap gap-3 font-mono text-xs">
               <a href="#work" className="focus-ring primary-cta">EXPLORE SYSTEMS ↓</a>
-              <a href="/gowshika-resume.txt" download className="focus-ring secondary-cta">RESUME ↗</a>
+              
             </div>
           </div>
           <HeroExperience />
