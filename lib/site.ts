@@ -4,8 +4,15 @@ export const siteLinks = {
   linkedin: "https://www.linkedin.com/in/gowshika-m-457533322/",
 };
 
-export const projectLinks: Record<string, { github?: string; live?: string }> = {
+export const projectLinks: Record<
+  string,
+  { github?: string; live?: string }
+> = {
   "legacylens-ai": {},
+  creatorops: {
+    github: "https://github.com/Gowshii26/creatorops",
+    live: "https://creatorops-r26i.vercel.app",
+  },
   "devconnect-ai": {},
   "honeyshield-ai": {},
   "mask-vault": {},
